@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>List Biodata</title>
+	</head>
+	<body>
+		<h1>List Biodata</h1>
+		<hr/>
+		<a href="biodata.php?act=add">Add</a>
+		<table border="1" width="100%" cellpadding="5">
+			<tr>
+				<td>Nama</td>
+				<td>Email</td>
+				<td>No Telp</td>
+				<td>Hobi</td>
+				<td>Action</td>
+			</tr>
+			<?php while($row=mysql_fetch_assoc($RESULT)){ ?>
+				<tr>
+					<td><?php echo $row['nama']; ?></td>
+					<td><?php echo $row['email']; ?></td>
+					<td><?php echo $row['no_telp']; ?></td>
+					<td><?php echo $row['hobi']; ?></td>
+					<td></td>
+				</tr>
+			<?php } ?>
+		</table>
+	</body>
+</html>
