@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Code Fundamental - Code View Data</title>
+	<link rel="apple-touch-icon" sizes="57x57" href="//dwilanang.github.io/code-fundamental/imgs/icon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="//dwilanang.github.io/code-fundamental/imgs/icon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="//dwilanang.github.io/code-fundamental/imgs/icon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="//dwilanang.github.io/code-fundamental/imgs/icon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="//dwilanang.github.io/code-fundamental/imgs/icon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="//dwilanang.github.io/code-fundamental/imgs/icon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="//dwilanang.github.io/code-fundamental/imgs/icon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="//dwilanang.github.io/code-fundamental/imgs/icon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="//dwilanang.github.io/code-fundamental/imgs/icon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="//dwilanang.github.io/code-fundamental/imgs/icon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="//dwilanang.github.io/code-fundamental/imgs/icon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="//dwilanang.github.io/code-fundamental/imgs/icon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="//dwilanang.github.io/code-fundamental/imgs/icon/favicon-16x16.png">
+	<link rel="manifest" href="imgs/icon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="//dwilanang.github.io/code-fundamental/imgs/icon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+    <!-- Mobile support -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta content="Belajar dan berbagi pemrograman web" name="description">
+	<meta content="bootstrap,google,material,design,code,layout,fundamental,belajar,berbagi,web,aplikasi,application,php,javascript" name="keywords">
+	<meta content="dwilanang" name="author">
+	<meta property="og:title" content="Code Fundamental"/>
+	<meta property="og:image" content="http://dwilanang.github.io/code-fundamental/imgs/logo.png"/>
+	<meta property="og:description" content="Belajar dan berbagi pemrograman web"/>
+	<meta property="og:site_name" content="http://dwilanang.github.io/code-fundamental" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@dwilanank" />
+    <meta name="twitter:creator" content="@dwilanank" />
+    <meta name="twitter:title" content="Code Fundamental" />
+    <meta name="twitter:description" content="Belajar dan berbagi pemrograman web" />
+    <meta name="twitter:image:src" content="http://dwilanang.github.io/code-fundamental/imgs/logo.png" />
+    <!-- Twitter Bootstrap -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design for Bootstrap -->
+    <link href="//dwilanang.github.io/code-fundamental/dist/css/roboto.min.css" rel="stylesheet">
+    <link href="//dwilanang.github.io/code-fundamental/dist/css/material-fullpalette.min.css" rel="stylesheet">
+
+    <!-- jQuery -->
+    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+
+  </head>
+  <body style="background:#fff;" id="body">
+	<div class="navbar navbar-info">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="http://dwilanang.github.io/code-fundamental/">{CODE}</a>
+		</div>
+		<div class="navbar-collapse collapse navbar-inverse-collapse">
+			<ul class="nav navbar-nav pull-right">
+				<li><a href="http://facebook.com/codefundamental" target="_blank"><img src="//dwilanang.github.io/code-fundamental/imgs/facebook_share.png" /></a></li>
+				<li><a href="https://plus.google.com/u/0/100286844289144512774" target="_blank"><img src="//dwilanang.github.io/code-fundamental/imgs/google_share.png" /></a></li>
+			</ul>
+		</div>
+	</div>    
+    
+<!-- HEADER 
+=================================-->
+
+<!-- /header container-->
+
+	<div class="container">
+		<div class="panel panel-default">
+			<div class="panel-body">
+				<a href="https://github.com/dwilanang/code-create-data/archive/master.zip" target="_blank" class="btn btn-flat btn-link text-info pull-left">
+					<span>DOWNLOAD</span>
+				</a>
+				<a target="_blank" class="btn btn-flat btn-link text-info pull-left" data-toggle="modal" data-target=".bs-example-modal-lg">
+					<span>VIDEO</span>
+				</a>
+				<ul class="nav navbar-nav pull-right">
+					<li><a href="javascript:void(0)" onclick="share('http://www.facebook.com/share.php?u')"><img src="//dwilanang.github.io/code-fundamental/imgs/facebook_share.png" /> Share on Facebook</a></li>
+					<li><a href="javascript:void(0)" onclick="share('https://twitter.com/intent/tweet?text=code-fundamental-code-started&url')"><img src="//dwilanang.github.io/code-fundamental/imgs/twitter_share.png" /> Share on Twitter</a></li>
+					<li><a href="javascript:void(0)" onclick="share('https://plus.google.com/share?url')"><img src="//dwilanang.github.io/code-fundamental/imgs/google_share.png" /> Share on Google</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<iframe width="100%" height="400" src="https://www.youtube.com/embed/videoseries?list=PLWYQriUk9Y0esdWnwXiitGBDLU_2iqJX2" frameborder="0" ></iframe>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+			<div class="panel panel-info">
+				<div class="panel-heading" role="tab" id="accordion">
+				  <h4 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#step0" aria-expanded="true" aria-controls="Step0">
+						1. Started View
+					</a>
+				  </h4>
+				</div>
+				<div id="step0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+				  <div class="panel-body">
+						<ul>
+							<li>
+								Jalankan xampp controll
+							</li>
+							<li>
+								<img src="imgs/controll-xampp.jpg" class="img-thumbnail" />
+							</li>
+							<li>
+								Buka halaman biodata
+							</li>
+							<li>
+								Buat file list-biodata.html
+								<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+	&lt;head&gt;
+		&lt;title&gt;List Biodata&lt;/title&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		&lt;h1&gt;List Biodata&lt;/h1&gt;
+		&lt;hr/&gt;
+		
+	&lt;/body&gt;
+&lt;/html&gt;gt;
+								</pre>
+							</li>
+							<li>
+								Tampilkan halaman view data saat masuk ke halaman biodata dengan merubah script pemanggilan pada `biodata.php`
+								<pre>			
+&lt;?php 
+	//panggil koneksi
+	include &quot;koneksi.php&quot;;
+	//cek apakah ada action atau tidak
+	if(isset($_GET['act']) AND $_GET['act'])
+	{
+		if($_GET['act'] == &quot;add&quot;)
+		{
+			//create form add
+			include &quot;add-biodata.html&quot;;
+		}
+		elseif($_GET['act'] == &quot;create&quot;)
+		{
+			//echo &quot;action create&quot;;
+			//cek apakah form dapat mengirimkan nilai pada biodata.php
+			//print_r($_POST);
+			//cek apakah nilai dikirimkan dari form atau tidak
+			if(isset($_POST['f_submit']) AND $_POST['f_submit']) //jika ya
+			{
+				//masukan nilai input pada form pada variable agar lebih ringkas
+				$nama = $_POST['f_nama'];
+				$email = $_POST['f_email'];
+				$telp = $_POST['f_telp'];
+				$alamat = $_POST['f_alamat'];
+				$jk = (isset($_POST['f_jk'])?$_POST['f_jk']:null);
+				$agama = $_POST['f_agama'];
+				$hobi = (isset($_POST['f_hobi'])?$_POST['f_hobi']:array());
+				
+				//cara simple
+				$hobi = implode(&quot;,&quot;, $hobi);
+				
+				//----------------------------------------------------
+				//cara dengan melakukan perulangan
+				//karena hobi adalah array jadi harus melakukan perulangan untuk mendapatkan nilai menjadi satu inputan
+				/*$hobinya = &quot;&quot;;
+				if(count($hobi) &gt; 0)
+				{
+					foreach($hobi as $v_hobi)
+					{
+						$hobinya .= $v_hobi .&quot;,&quot;; //menggabungkan nilai hobi menjadi satu baris kemudian dipisahkan anda `,`
+					}
+					$hobinya = substr($hobinya, 0, -1); //menghilangkan tanda `,` pada akhir string karena nilai terakhir berupa kosong
+					//echo $hobinya;
+				}*/
+				//-------------------------------------------------------
+				
+				//upload gambar
+				//cek apakah gambar diinputkan atau tidak
+				//jenis upload pengambilan nilai tidak sama dengan input di atas menggunakan $_POST tapi dengan variable $_FILES
+				if($_FILES['f_foto']['size'] &gt; 0) //cek size gambar untuk mengetahui eventnya
+				{
+					//Array ( [f_foto] =&gt; Array ( [name] =&gt; logo.png [type] =&gt; image/png [tmp_name] =&gt; D:\SOURCE\xampp\tmp\php3574.tmp [error] =&gt; 0 [size] =&gt; 1546 ) )
+					//semua hasil print dari gambar dapat dimanfaatkan untuk mengapload file ke folder yang kita inginkan
+					
+					//print_r($_FILES);
+					
+					$foto = $_FILES['f_foto']['name'];
+					//copy(temporary folder, folder tujuan beserta nama filenya);
+					//mengambil variable yang ada pada variable server `$_SERVER`
+					//print_r($_SERVER);
+					copy($_FILES['f_foto']['tmp_name'], $_SERVER['DOCUMENT_ROOT'] .&quot;/webku/upload/&quot;. $foto); //perintah untuk menduplikat gambar yang ada pada temporary ke folder yang kita inginkan
+				}
+				else //jika tidak ada
+				{
+					//echo &quot;tidak ada gambar yang diinput.&quot;;
+					$foto = null;
+				}
+				//cek apakah nilai inputan telah dapat diambil atau tidak
+				/*
+				echo $nama .&quot;&lt;br/&gt;&quot;;
+				echo $email .&quot;&lt;br/&gt;&quot;;
+				echo $telp .&quot;&lt;br/&gt;&quot;;
+				echo $alamat .&quot;&lt;br/&gt;&quot;;
+				echo $hobinya .&quot;&lt;br/&gt;&quot;;
+				echo $hobi .&quot;&lt;br/&gt;&quot;;
+				echo $agama .&quot;&lt;br/&gt;&quot;;
+				echo $jk .&quot;&lt;br/&gt;&quot;;
+				echo $foto .&quot;&lt;br/&gt;&quot;;
+				*/
+				//semua nilai inputan telah dapat diambil
+				//validasi form agar kosong tidak dapat disimpan
+				if($nama AND $email AND $telp AND $alamat AND $hobi AND $agama AND $jk AND $foto)
+				{
+					//echo &quot;OK&quot;;
+					//buat perintah query untuk menyimpan hasil inputan dari form
+					$QUERY = &quot;INSERT INTO biodata (nama, alamat, no_telp, email, jenis_kelamin, hobi, agama, foto) VALUES ('$nama', '$alamat', '$telp', '$email', '$jk', '$hobi', '$agama', '$foto')&quot;;
+					//cek apakah perintah query telah berjalan dengan benar atau belum
+					//echo $QUERY;
+					//jika pada phpmyadmin telah berhasil, jalan kan untuk eksekusi ke database saat form disubmit
+					//perintah eksekusi query pada mysql
+					mysql_query($QUERY);
+					//panggil koneksi ke database agar perintah dapat dijalankan
+					header(&quot;location:biodata.php&quot;); //arahkan halaman ke halaman view list - pada belajar selanjutnya ..
+				}
+				else
+				{
+					echo &quot;Form harus diisi!&quot;;
+				}
+			}
+			else //jika tidak
+			{
+				header(&quot;location:biodata.php?act=add&quot;); //arahkan halaman ke halaman add
+			}
+		}
+		elseif($_GET['act'] == &quot;edit&quot;)
+		{
+			//tampilkan halaman form edit
+			//jika ingin mengedit data, data yang akan diedit harus sesuai dengan data yang dipilih dengan field kunci yaitu id
+			//select data yang akan diedit, buatkan perintah query untk memilih data yang akan diedit
+			$id = $_GET['id'];
+			if($id)
+			{
+				$QUERY = &quot;SELECT * FROM biodata WHERE id='&quot;. $id .&quot;'&quot;;
+				//cek fungsi query apakah sudah benar atau belum
+				//echo $QUERY;
+				//exit;
+				//ambil hasil dari perintah query kemudian ditampilkan pada masing-masing input pada form
+				$RESULT = mysql_query($QUERY);
+				$ROW = mysql_fetch_assoc($RESULT);
+				
+				//cek apakah data telah dapat ditampilkan
+				//print_r($ROW); //tampilan data yang berupa kumpulan array
+				
+			}
+			
+			include &quot;edit-biodata.html&quot;;
+		}
+	}
+	else
+	{
+		//view list biodata
+		
+		include &quot;list-biodata.html&quot;;
+	}
+?&gt;gt;
+								</pre>
+							</li>
+							
+						</ul>
+				  </div>
+				</div>
+			</div>
+			<div class="panel panel-info">
+				<div class="panel-heading" role="tab" id="accordion">
+				  <h4 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#step2" aria-expanded="true" aria-controls="Step2">
+						2. Select and View Data
+					</a>
+				  </h4>
+				</div>
+				<div id="step2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+				  <div class="panel-body">
+						<ul>
+							<li>
+								Buat perintah query untuk menampilkan semua data pada table `biodata`
+								<pre>
+//buat perintah query untuk menampilkan data pada table `biodata`
+$QUERY = &quot;SELECT * FROM biodata&quot;;
+$RESULT = mysql_query($QUERY);
+								</pre>
+								<pre>
+&lt;?php 
+	//panggil koneksi
+	include &quot;koneksi.php&quot;;
+	//cek apakah ada action atau tidak
+	if(isset($_GET['act']) AND $_GET['act'])
+	{
+		if($_GET['act'] == &quot;add&quot;)
+		{
+			//create form add
+			include &quot;add-biodata.html&quot;;
+		}
+		elseif($_GET['act'] == &quot;create&quot;)
+		{
+			//echo &quot;action create&quot;;
+			//cek apakah form dapat mengirimkan nilai pada biodata.php
+			//print_r($_POST);
+			//cek apakah nilai dikirimkan dari form atau tidak
+			if(isset($_POST['f_submit']) AND $_POST['f_submit']) //jika ya
+			{
+				//masukan nilai input pada form pada variable agar lebih ringkas
+				$nama = $_POST['f_nama'];
+				$email = $_POST['f_email'];
+				$telp = $_POST['f_telp'];
+				$alamat = $_POST['f_alamat'];
+				$jk = (isset($_POST['f_jk'])?$_POST['f_jk']:null);
+				$agama = $_POST['f_agama'];
+				$hobi = (isset($_POST['f_hobi'])?$_POST['f_hobi']:array());
+				
+				//cara simple
+				$hobi = implode(&quot;,&quot;, $hobi);
+				
+				//----------------------------------------------------
+				//cara dengan melakukan perulangan
+				//karena hobi adalah array jadi harus melakukan perulangan untuk mendapatkan nilai menjadi satu inputan
+				/*$hobinya = &quot;&quot;;
+				if(count($hobi) &gt; 0)
+				{
+					foreach($hobi as $v_hobi)
+					{
+						$hobinya .= $v_hobi .&quot;,&quot;; //menggabungkan nilai hobi menjadi satu baris kemudian dipisahkan anda `,`
+					}
+					$hobinya = substr($hobinya, 0, -1); //menghilangkan tanda `,` pada akhir string karena nilai terakhir berupa kosong
+					//echo $hobinya;
+				}*/
+				//-------------------------------------------------------
+				
+				//upload gambar
+				//cek apakah gambar diinputkan atau tidak
+				//jenis upload pengambilan nilai tidak sama dengan input di atas menggunakan $_POST tapi dengan variable $_FILES
+				if($_FILES['f_foto']['size'] &gt; 0) //cek size gambar untuk mengetahui eventnya
+				{
+					//Array ( [f_foto] =&gt; Array ( [name] =&gt; logo.png [type] =&gt; image/png [tmp_name] =&gt; D:\SOURCE\xampp\tmp\php3574.tmp [error] =&gt; 0 [size] =&gt; 1546 ) )
+					//semua hasil print dari gambar dapat dimanfaatkan untuk mengapload file ke folder yang kita inginkan
+					
+					//print_r($_FILES);
+					
+					$foto = $_FILES['f_foto']['name'];
+					//copy(temporary folder, folder tujuan beserta nama filenya);
+					//mengambil variable yang ada pada variable server `$_SERVER`
+					//print_r($_SERVER);
+					copy($_FILES['f_foto']['tmp_name'], $_SERVER['DOCUMENT_ROOT'] .&quot;/webku/upload/&quot;. $foto); //perintah untuk menduplikat gambar yang ada pada temporary ke folder yang kita inginkan
+				}
+				else //jika tidak ada
+				{
+					//echo &quot;tidak ada gambar yang diinput.&quot;;
+					$foto = null;
+				}
+				//cek apakah nilai inputan telah dapat diambil atau tidak
+				/*
+				echo $nama .&quot;&lt;br/&gt;&quot;;
+				echo $email .&quot;&lt;br/&gt;&quot;;
+				echo $telp .&quot;&lt;br/&gt;&quot;;
+				echo $alamat .&quot;&lt;br/&gt;&quot;;
+				echo $hobinya .&quot;&lt;br/&gt;&quot;;
+				echo $hobi .&quot;&lt;br/&gt;&quot;;
+				echo $agama .&quot;&lt;br/&gt;&quot;;
+				echo $jk .&quot;&lt;br/&gt;&quot;;
+				echo $foto .&quot;&lt;br/&gt;&quot;;
+				*/
+				//semua nilai inputan telah dapat diambil
+				//validasi form agar kosong tidak dapat disimpan
+				if($nama AND $email AND $telp AND $alamat AND $hobi AND $agama AND $jk AND $foto)
+				{
+					//echo &quot;OK&quot;;
+					//buat perintah query untuk menyimpan hasil inputan dari form
+					$QUERY = &quot;INSERT INTO biodata (nama, alamat, no_telp, email, jenis_kelamin, hobi, agama, foto) VALUES ('$nama', '$alamat', '$telp', '$email', '$jk', '$hobi', '$agama', '$foto')&quot;;
+					//cek apakah perintah query telah berjalan dengan benar atau belum
+					//echo $QUERY;
+					//jika pada phpmyadmin telah berhasil, jalan kan untuk eksekusi ke database saat form disubmit
+					//perintah eksekusi query pada mysql
+					mysql_query($QUERY);
+					//panggil koneksi ke database agar perintah dapat dijalankan
+					header(&quot;location:biodata.php&quot;); //arahkan halaman ke halaman view list - pada belajar selanjutnya ..
+				}
+				else
+				{
+					echo &quot;Form harus diisi!&quot;;
+				}
+			}
+			else //jika tidak
+			{
+				header(&quot;location:biodata.php?act=add&quot;); //arahkan halaman ke halaman add
+			}
+		}
+		elseif($_GET['act'] == &quot;edit&quot;)
+		{
+			//tampilkan halaman form edit
+			//jika ingin mengedit data, data yang akan diedit harus sesuai dengan data yang dipilih dengan field kunci yaitu id
+			//select data yang akan diedit, buatkan perintah query untk memilih data yang akan diedit
+			$id = $_GET['id'];
+			if($id)
+			{
+				$QUERY = &quot;SELECT * FROM biodata WHERE id='&quot;. $id .&quot;'&quot;;
+				//cek fungsi query apakah sudah benar atau belum
+				//echo $QUERY;
+				//exit;
+				//ambil hasil dari perintah query kemudian ditampilkan pada masing-masing input pada form
+				$RESULT = mysql_query($QUERY);
+				$ROW = mysql_fetch_assoc($RESULT);
+				
+				//cek apakah data telah dapat ditampilkan
+				//print_r($ROW); //tampilan data yang berupa kumpulan array
+				
+			}
+			
+			include &quot;edit-biodata.html&quot;;
+		}
+	}
+	else
+	{
+		//view list biodata
+		//buat perintah query untuk menampilkan data pada table `biodata`
+		$QUERY = &quot;SELECT * FROM biodata&quot;;
+		$RESULT = mysql_query($QUERY);
+		include &quot;list-biodata.html&quot;;
+	}
+?&gt;gt;
+								</pre>
+							</li>
+							<li>
+								Tambakan tampilan table untuk menampilkan hasil query
+								<pre>	
+&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;5&quot;&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Nama&lt;/td&gt;
+		&lt;td&gt;Email&lt;/td&gt;
+		&lt;td&gt;No Telp&lt;/td&gt;
+		&lt;td&gt;Hobi&lt;/td&gt;
+		&lt;td&gt;Edit&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;?php while($row=mysql_fetch_assoc($RESULT)){ ?&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;?php echo $row['nama']; ?&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;?php echo $row['email']; ?&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;?php echo $row['no_telp']; ?&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;?php echo $row['hobi']; ?&gt;&lt;/td&gt;
+			&lt;!-- kirim id sebagai kunci untuk setiap data agar menapilkan detail dari data --&gt;
+			&lt;td&gt;&lt;a href=&quot;biodata.php?act=edit&amp;id=&lt;?php echo $row['id']; ?&gt;&quot;&gt;Edit&lt;/a&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;?php } ?&gt;
+&lt;/table&gt;gt;
+								</pre>
+								<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+	&lt;head&gt;
+		&lt;title&gt;List Biodata&lt;/title&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		&lt;h1&gt;List Biodata&lt;/h1&gt;
+		&lt;hr/&gt;
+		&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;5&quot;&gt;
+			&lt;tr&gt;
+				&lt;td&gt;Nama&lt;/td&gt;
+				&lt;td&gt;Email&lt;/td&gt;
+				&lt;td&gt;No Telp&lt;/td&gt;
+				&lt;td&gt;Hobi&lt;/td&gt;
+				&lt;td&gt;Edit&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;?php while($row=mysql_fetch_assoc($RESULT)){ ?&gt;
+				&lt;tr&gt;
+					&lt;td&gt;&lt;?php echo $row['nama']; ?&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;?php echo $row['email']; ?&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;?php echo $row['no_telp']; ?&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;?php echo $row['hobi']; ?&gt;&lt;/td&gt;
+					&lt;!-- kirim id sebagai kunci untuk setiap data agar menapilkan detail dari data --&gt;
+					&lt;td&gt;&lt;a href=&quot;biodata.php?act=edit&amp;id=&lt;?php echo $row['id']; ?&gt;&quot;&gt;Edit&lt;/a&gt;&lt;/td&gt;
+				&lt;/tr&gt;
+			&lt;?php } ?&gt;
+		&lt;/table&gt;gt;
+	&lt;/body&gt;
+&lt;/html&gt;gt;
+								</pre>
+							</li>
+							<li>
+								Tambahkan link untuk mengarahkan ke halaman `add`
+								<pre>
+&lt;a href=&quot;biodata.php?act=add&quot;&gt;Add&lt;/a&gt;gt;
+								</pre>
+								<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+	&lt;head&gt;
+		&lt;title&gt;List Biodata&lt;/title&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		&lt;h1&gt;List Biodata&lt;/h1&gt;
+		&lt;hr/&gt;
+		&lt;a href=&quot;biodata.php?act=add&quot;&gt;Add&lt;/a&gt;gt;
+		&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;5&quot;&gt;
+			&lt;tr&gt;
+				&lt;td&gt;Nama&lt;/td&gt;
+				&lt;td&gt;Email&lt;/td&gt;
+				&lt;td&gt;No Telp&lt;/td&gt;
+				&lt;td&gt;Hobi&lt;/td&gt;
+				&lt;td&gt;Edit&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;?php while($row=mysql_fetch_assoc($RESULT)){ ?&gt;
+				&lt;tr&gt;
+					&lt;td&gt;&lt;?php echo $row['nama']; ?&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;?php echo $row['email']; ?&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;?php echo $row['no_telp']; ?&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;?php echo $row['hobi']; ?&gt;&lt;/td&gt;
+					&lt;!-- kirim id sebagai kunci untuk setiap data agar menapilkan detail dari data --&gt;
+					&lt;td&gt;&lt;a href=&quot;biodata.php?act=edit&amp;id=&lt;?php echo $row['id']; ?&gt;&quot;&gt;Edit&lt;/a&gt;&lt;/td&gt;
+				&lt;/tr&gt;
+			&lt;?php } ?&gt;
+		&lt;/table&gt;gt;
+	&lt;/body&gt;
+&lt;/html&gt;gt;
+								</pre>
+							</li>
+						</ul>
+				  </div>
+				</div>
+			</div>
+		</div>
+		
+		<p class="clearfix">
+			<div id="disqus_thread"></div>	
+		</p>
+	
+	<hr/>
+	<a href="#body" class="btn btn-default pull-right">Back to Top</a>
+     <!-- Twitter Bootstrap -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <!-- Material Design for Bootstrap -->
+    <script src="//dwilanang.github.io/code-fundamental/dist/js/material.min.js"></script>
+	<script type="text/javascript">
+		/* * * CONFIGURATION VARIABLES * * */
+		var disqus_shortname = 'codefundamental';
+		
+		/* * * DON'T EDIT BELOW THIS LINE * * */
+		(function() {
+			var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+			dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		})();
+	</script>
+	<script>
+		function share(url){
+			window.open(url +"="+ document.URL,'Social Share', 'menubar=no,toolbar=no,resizable=no,scrollbars=no,height=500,width=500');
+			return false;   
+		}
+		$.material.init();
+   
+		var activeid="UA-62808390-1";
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', activeid]);
+		_gaq.push(['_trackPageview']);
+
+		(function() { 
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+		_gaq.push(['_trackPageview', window.location.pathname + window.location.search  + window.location.hash]);
+	
+	</script>
+  </body>
+</html>
